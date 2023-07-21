@@ -1,0 +1,95 @@
+/* General Settings */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+/* Background Settings */
+#background{
+    background-color: black;
+    opacity: 75%;
+    border-radius: 20px;
+    width: 75%;
+    height: 75%;
+}
+nav,main,header,section{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+header{
+    display: inline-block;
+    padding: 0;
+}
+.frontpage,nav{
+    text-align: center;
+}
+/* Proprietà del Header */
+header{
+    margin-left: 300px;
+}
+div > img{
+    margin-top: 50px;
+    width: 300px;
+    height: 140px;
+}
+.frontpage{
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    color: #00FF00;
+    margin-bottom: 10px;
+}
+/* Proprietà del Nav */
+.navigatore,.barra{
+    opacity: 1;
+}
+.navigatore{
+    background-color: #00FF00;
+    padding: 2px;
+    height: 45px; 
+}
+button{
+    margin-top: 11px;
+}
+/* Proprietà del Main */
+.contenitore{
+    margin-top: 20px;
+    color: white;
+}
+input[type="checkbox"]
+{
+    vertical-align:middle;
+    margin-bottom: 4px;
+}
+.monopattino{
+    font-size: 25px;
+    padding: 0;
+}
+.barra{
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.barra-gialla{
+    background-color: #DAA520;
+    width: 300px;
+}
+.barra-verde{
+    background-color: #00FF00;
+    width: 500px;
+}
+.barra-rossa{
+    background-color: #B22222;
+    width: 150px;
+}
+.via:before{
+    content: "\2192";
+}
+/* Footer */
+#space{
+    height: 150px;
+}
